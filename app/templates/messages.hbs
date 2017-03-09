@@ -1,0 +1,8 @@
+{{outlet}}
+<h2>Messages</h2>
+{{#each model as |message|}}
+<p>{{message.message}}</p>
+<p>{{message.username}}</p>
+<p>{{message.useragent}}</p>
+<p>{{message.date}}</p>
+{{/each}}
