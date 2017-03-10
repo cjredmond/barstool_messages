@@ -1,17 +1,19 @@
 {{outlet}}
 <div class="container">
+  <div class="row placeholder"></div>
   <div class="panel panel-default">
-    <div class="panel-body">
+    <div class="panel-body box">
 
 
-  <h2>Welcome to Ember.js</h2>
+  <p class='welcome'>Welcome to Ember.js</p>
   {{#each model as |message|}}
 
   <div class="row">
-    <div class="col-md-1">
+    <div class="col-sm-1 img-circle">
       <img src="{{message.pic}}" class='img-circle'><br>
     </div>
     <div class="col-md-11">
+      <div class="row equalizer"></div>
       <div class="row message-text">
         <strong>{{message.message}}</strong>
       </div>
