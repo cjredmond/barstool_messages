@@ -9,3 +9,8 @@ test('it exists', function(assert) {
   let route = this.subject();
   assert.ok(route);
 });
+
+test('api data', function(assert) {
+  let route = this.subject();
+  assert.ok(route);
+});
