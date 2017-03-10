@@ -1,8 +1,16 @@
 {{outlet}}
-<h2>Messages</h2>
-{{#each model as |message|}}
-<p>{{message.message}}</p>
-<p>{{message.username}}</p>
-<p>{{message.useragent}}</p>
-<p>{{message.date}}</p>
-{{/each}}
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-body">
+
+
+  <h2>Welcome to Ember.js</h2>
+  {{#each model as |message|}}
+  <p>{{message.message}}</p>
+  <p>{{message.username}}</p>
+  <p>{{message.useragent}}</p>
+  <p class='grey'>{{message.date}}</p>
+  {{/each}}
+  </div>
+  </div>
+</div>

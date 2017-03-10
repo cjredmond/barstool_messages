@@ -1,0 +1,14 @@
+body {
+  $main-color: black;
+  background-color: lightblue;
+
+  p {
+    color: $main-color
+  }
+
+  .grey {
+    color: grey;
+  }
+
+
+}
