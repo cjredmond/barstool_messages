@@ -6,10 +6,27 @@
 
   <h2>Welcome to Ember.js</h2>
   {{#each model as |message|}}
-  <p>{{message.message}}</p>
-  <p>{{message.username}}</p>
-  <p>{{message.useragent}}</p>
-  <p class='grey'>{{message.date}}</p>
+
+  <div class="row">
+    <div class="col-md-1">
+      <img src="{{message.pic}}" class='img-circle'><br>
+    </div>
+    <div class="col-md-11">
+      <div class="row message-text">
+        <strong>{{message.message}}</strong>
+      </div>
+      <div class="row info">
+        <strong class='info'>{{message.username}}</strong>
+      </div>
+      <div class="row info">
+        <strong class='info'>{{message.useragent}}</strong>
+      </div>
+      <div class="row">
+        <p class='grey'>{{message.date}}</p>
+      </div>
+    </div>
+  </div>
+
   {{/each}}
   </div>
   </div>
