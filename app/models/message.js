@@ -6,4 +6,4 @@ export default DS.Model.extend({
   message: DS.attr('string'),
   username: DS.attr('string'),
   pic: DS.attr('string')
-})
+});
