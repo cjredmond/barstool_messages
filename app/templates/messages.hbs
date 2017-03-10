@@ -5,7 +5,7 @@
     <div class="panel-body box">
 
 
-  <p class='welcome'>Welcome to Ember.js</p>
+  <strong class='welcome times'>Welcome to Ember.js</strong>
   {{#each model as |message|}}
 
   <div class="row">
@@ -15,16 +15,16 @@
     <div class="col-md-11">
       <div class="row equalizer"></div>
       <div class="row message-text">
-        <strong>{{message.message}}</strong>
+        <strong class="">{{message.message}}</strong>
       </div>
       <div class="row info">
-        <strong class='info'>{{message.username}}</strong>
+        <strong class='info'>{{format-username message.username}}</strong>
       </div>
       <div class="row info">
         <strong class='info'>{{message.useragent}}</strong>
       </div>
       <div class="row">
-        <p class='grey'>{{message.date}}</p>
+        <p class='grey verdana'>{{message.date}}</p>
       </div>
     </div>
   </div>

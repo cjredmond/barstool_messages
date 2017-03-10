@@ -3,11 +3,23 @@ body {
   background-color: aliceblue;
 
   p {
-    color: $main-color
+    color: $main-color;
   }
 
   .placeholder {
     height: 10vh;
+  }
+
+  .times {
+    font-family: Times;
+  }
+
+  .verdana {
+    font-family: verdana;
+  }
+
+  .tahoma {
+    font-family: tahoma;
   }
 
   .welcome {
@@ -20,11 +32,11 @@ body {
   }
 
   .box {
-    border: 2px solid cyan;;
+    border: 2px solid cyan;
   }
 
   .grey {
-    color: grey;
+    color: lightslategrey;
     padding-top: 4px;
   }
 
@@ -40,7 +52,7 @@ body {
   }
 
   .message-text {
-    font-size: 22px;
+    font-size: 20px;
     padding-bottom: 8px;
   }
 
